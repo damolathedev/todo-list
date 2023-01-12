@@ -1,0 +1,43 @@
+body {
+  font-size: 62.5%;
+}
+
+.container {
+  font-size: 1rem;
+}
+
+.list {
+  background-color: #ffcdd5;
+}
+
+.collection-item {
+  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa {
+  color: red;
+}
+
+.fa:hover {
+  background-color: rgb(255, 0, 0, 0.2);
+}
+
+.todo a:hover {
+  cursor: pointer;
+}
+
+.todo a {
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* a:hover {
+  cursor: pointer;
+} */

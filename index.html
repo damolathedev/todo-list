@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>todo list</title>
+  </head>
+  <body>
+    <div class="container row">
+      <div class="container col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Todo list</span>
+          </div>
+          <div class="row">
+            <form class="col s12" id="todo-form">
+              <div class="input-field col s12">
+                <input id="todo-input" type="text" class="validate" />
+                <label for="text">Todo</label>
+                <a class="waves-effect waves-light btn add-btn" type="submit" >Add</a>
+              </div>
+            </form>
+            <div class="card-content ">
+              <span class="card-title white-text">List</span>
+              
+              <ul class="collection">
+                
+              </ul>
+              <div class="input-field col s12">
+                <input id="filter" type="text" class="validate" />
+                <label for="text"> Filter </label>
+              </div>
+              <a class="clear waves-effect waves-light btn darhen-3 red">Clear todo</a>
+            </div>
+          </div>
+        </div>
+        
+        
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
